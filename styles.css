@@ -285,3 +285,80 @@
   margin-top: 10px;
 }
 /* my-motivation-part-style-end */
+
+/* footer-section-style-start-here */
+
+.contact-section{
+  display: flex;
+  gap: 100px;
+  background: #151414;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left:300px
+}
+.contact-section.footer-title {
+  text-align: left;
+
+}
+
+.input-area{
+  margin-top: 15px;
+  height: 40px;
+  width: 100%;
+  border: 2px solid wheat;
+  padding-right: 50px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  padding-left: 2px;
+  background-color: #000000;
+}
+.buttons-Sub {
+  margin-top: 15px;
+  padding: 15px 36px;
+  border: none;
+  color: red;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-section a{
+  text-decoration: none;
+}
+
+.footer-title1{
+  font-size: 40px;
+  color: white;
+}
+
+.ft-paragrap{
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: white;
+}
+
+.social-icon{
+  padding-top: 20px;
+
+}
+.email{
+  padding-top: 10px;
+  color: white;
+}
+.phone{
+  padding-top: 10px;
+  color: white;
+}
+.footer-title{
+  color: white;
+  font-size: 22px;
+  font-weight: 500px;
+}
+.tw-icon{
+  padding-left: 8px;
+}
+.yt-icon{
+  padding-left: 8px;
+}
