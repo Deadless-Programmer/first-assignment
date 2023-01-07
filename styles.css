@@ -366,5 +366,10 @@
 a{
   color: white;
 } 
+input::placeholder{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding-left: 7px;
+}
 
 /* footer-contact section-end */
