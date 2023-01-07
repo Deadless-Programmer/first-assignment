@@ -158,9 +158,12 @@
   height: 43vh;
   /* background-image: url(./images/watch.png); */
   background-image: 
-  linear-gradient(to right, rgb(253, 1, 1), rgba(75, 182, 49, 0.151)),url(./images/watch.png);
+  linear-gradient(to right, rgb(253, 1, 1), rgba(75, 182, 49, 0.151)),url(images/watch.png);
   background: cover;
   background-blend-mode: overlay;
   margin-left: 200px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
