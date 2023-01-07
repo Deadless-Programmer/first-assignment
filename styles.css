@@ -155,12 +155,37 @@
 
 .whatch-image {
   margin-left: 180px;
-  /* margin-top: 50px; */
+  margin-top: 50px;
   padding-top: 50px;
-  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-  border-radius: 8px;
- 
-
 }
 
+/* .img-container {
+  background: url("./images/watch.png"),
+    linear-gradient(to top left, rgba(156, 228, 160, 0.068), rgb(255, 0, 0));
+  color: white;
+  position: relative;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 60vh;
+  margin-left: 180px;
+  margin-top: 80px;
+  max-height: fit-content;
+  margin-right: 180px;
+  border-radius: 10px;
+  background-blend-mode: overlay;
+  /* padding-bottom: 180px; */
+  /* opacity: 0.7 */
 
+  .img-container {
+    color: white;
+    background: linear-gradient(to top left, rgba(156, 228, 160, 0.068), rgb(255, 0, 0));;
+    position: relative;
+    border-radius: 10px;
+    background-blend-mode: overlay;
+    position: relative;
+    height: 43.5vh;
+    margin-right: 358px ;
+    /* justify-content: center; */
+    margin-left: 180px;
+
+  }
