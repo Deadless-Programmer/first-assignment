@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
   margin-right: 500px;
 }
+
 .heading-title {
   font-weight: 900px;
   font-size: 60px;
@@ -22,6 +23,7 @@
   padding-top: 160px;
   color: #151414;
 }
+
 .heading-paragraph {
   font-weight: 400px;
   font-size: 16px;
@@ -29,6 +31,7 @@
   text-align: right;
   padding-top: 20px;
 }
+
 .btn-discover {
   padding: 15px 45px;
   background: #f15b22;
@@ -51,6 +54,7 @@
   gap: 80px;
   justify-content: center;
 }
+
 .Child-content {
   margin-top: 280px;
 }
@@ -122,6 +126,7 @@
   justify-content: center;
   margin-top: 10px;
 }
+
 .skill-development1 {
   padding: 50px;
 
@@ -130,6 +135,7 @@
   text-align: center;
   gap: 100px;
 }
+
 .skill-development2 {
   padding: 50px;
 
@@ -137,6 +143,7 @@
   color: wheat;
   text-align: center;
 }
+
 .skill-development3 {
   padding: 50px;
 
@@ -144,6 +151,7 @@
   color: wheat;
   text-align: center;
 }
+
 .skill-development4 {
   padding: 50px;
 
@@ -151,6 +159,7 @@
   color: wheat;
   text-align: center;
 }
+
 /* skill-development-container-style-end */
 
 /* second-banner-style-start-here */
@@ -160,8 +169,8 @@
   height: 43vh;
   background-image: linear-gradient(
       to right,
-      rgb(253, 1, 1),
-      rgba(75, 182, 49, 0.151)
+      rgba(253, 1, 1, 0.856),
+      rgba(76, 182, 49, 0.411)
     ),
     url(./images/watch.png);
   background: cover;
@@ -182,6 +191,7 @@
 .button-part {
   margin-top: 10px;
 }
+
 .buttons-discovery {
   padding: 15px 36px;
   border: none;
@@ -196,3 +206,82 @@
 }
 
 /* second-banner-style-end */
+
+/* my-motivation-part-style-start-here */
+
+.motivatio-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.motivation-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.motivatio-paragraph {
+  padding: 15px 36px;
+  border: none;
+  color: red;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description-part {
+  display: flex;
+  gap: -100px;
+  justify-content: space-around;
+  box-shadow: #151414;
+  margin-top: 30px;
+}
+
+.person-name {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #141414;
+}
+
+.theire-quote {
+  margin-top: 7px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: #252525;
+}
+
+.person {
+  background: rgb(243, 243, 243);
+  box-shadow: 0px 6px 50px rgba(66, 64, 64, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.person1 {
+  background: rgb(243, 243, 243);
+  box-shadow: 0px 6px 50px rgba(66, 64, 64, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  margin-left: 300px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.person2 {
+  background: rgb(243, 243, 243);
+  box-shadow: 0px 6px 50px rgba(66, 64, 64, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.person3 {
+  background: rgb(243, 243, 243);
+  box-shadow: 0px 6px 50px rgba(66, 64, 64, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  margin-right: 300px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+/* my-motivation-part-style-end */
