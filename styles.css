@@ -153,39 +153,14 @@
 }
 /* skill-development-container-style-end */
 
-.whatch-image {
-  margin-left: 180px;
-  margin-top: 50px;
-  padding-top: 50px;
-}
-
-/* .img-container {
-  background: url("./images/watch.png"),
-    linear-gradient(to top left, rgba(156, 228, 160, 0.068), rgb(255, 0, 0));
-  color: white;
-  position: relative;
-  background-repeat: no-repeat;
-  justify-content: center;
-  height: 60vh;
-  margin-left: 180px;
-  margin-top: 80px;
-  max-height: fit-content;
-  margin-right: 180px;
-  border-radius: 10px;
+.banner-container2{
+  width: 75%;
+  height: 43vh;
+  /* background-image: url(./images/watch.png); */
+  background-image: 
+  linear-gradient(to right, rgb(253, 1, 1), rgba(75, 182, 49, 0.151)),url(./images/watch.png);
+  background: cover;
   background-blend-mode: overlay;
-  /* padding-bottom: 180px; */
-  /* opacity: 0.7 */
-
-  .img-container {
-    color: white;
-    background: linear-gradient(to top left, rgba(156, 228, 160, 0.068), rgb(255, 0, 0));;
-    position: relative;
-    border-radius: 10px;
-    background-blend-mode: overlay;
-    position: relative;
-    height: 43.5vh;
-    margin-right: 358px ;
-    /* justify-content: center; */
-    margin-left: 180px;
-
-  }
+  margin-left: 200px;
+  border-radius: 10px;
+}
