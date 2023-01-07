@@ -153,12 +153,17 @@
 }
 /* skill-development-container-style-end */
 
-.banner-container2{
+/* second-banner-style-start-here */
+
+.banner-container2 {
   width: 75%;
   height: 43vh;
-  /* background-image: url(./images/watch.png); */
-  background-image: 
-  linear-gradient(to right, rgb(253, 1, 1), rgba(75, 182, 49, 0.151)),url(./images/watch.png);
+  background-image: linear-gradient(
+      to right,
+      rgb(253, 1, 1),
+      rgba(75, 182, 49, 0.151)
+    ),
+    url(./images/watch.png);
   background: cover;
   background-blend-mode: overlay;
   margin-left: 200px;
@@ -166,4 +171,28 @@
   display: flex;
   align-items: center;
   color: white;
+  margin-top: 40px;
 }
+
+.banner-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button-part {
+  margin-top: 10px;
+}
+.buttons-discovery {
+  padding: 15px 36px;
+  border: none;
+  color: red;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner-details {
+  margin-left: 50px;
+}
+
+/* second-banner-style-end */
